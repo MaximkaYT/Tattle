@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/custom-font.ttf') format('truetype');
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    font-size: 2rem;
+}
+
+#timer {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
